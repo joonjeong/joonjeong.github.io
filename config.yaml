@@ -2,4 +2,9 @@ baseurl: https://joonjeong.github.io/
 languageCode: en-us
 title: on maintenantce
 theme: etch
+params:
+  utterances:
+    github_repo: joonjeong/joonjeong.github.io
+    github_label: utterances
+    theme: github-light
 ...

@@ -1,0 +1,10 @@
+{{- if isset $.Site.Params "utterances" -}}
+<script src="https://utteranc.es/client.js"
+        repo="{{ $.Site.Params.utterances.github_repo }}"
+        issue-term="url"
+        label="{{ $.Site.Params.utterances.github_label }}"
+        theme="{{ $.Site.Params.utterances.theme }}"
+        crossorigin="anonymous"
+        async>
+</script>
+{{- end -}}
