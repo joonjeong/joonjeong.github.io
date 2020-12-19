@@ -1,10 +1,20 @@
 baseurl: https://joonjeong.github.io/
 languageCode: en-us
 title: on maintenantce
-theme: etch
+theme: hugo-PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFeature: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   utterances:
     github_repo: joonjeong/joonjeong.github.io
     github_label: utterances
     theme: github-light
-...
