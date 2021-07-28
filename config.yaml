@@ -1,8 +1,10 @@
 baseurl: https://joonjeong.github.io/
 languageCode: en-us
-title: on maintenantce
-theme: hugo-PaperMod
+title: Dongseob Park, Joonjeong
+theme: noteworthy
 paginate: 5
+
+# googleAnalytics: 
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -14,6 +16,8 @@ minify:
   minifyOutput: true
 
 params:
+  email: dongseob.park@gmail.com
+  twitter: https://twitter.com/joonjeong_kr
   utterances:
     github_repo: joonjeong/joonjeong.github.io
     github_label: utterances
